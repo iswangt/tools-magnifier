@@ -1,0 +1,41 @@
+{
+  "name": "tools-magnifier",
+  "private": false,
+  "version": "1.0.1",
+  "description": "放大镜，可自定义放大块级元素节点。",
+  "license": "MIT",
+  "main": "packages/tools-magnifier.js",
+  "type": "module",
+  "homepage": "https://github.com/iswangt/magnifier#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iswangt/magnifier.git"
+  },
+  "keywords": [
+    "vue3",
+    "image",
+    "magnifier",
+    "放大镜",
+    "tools",
+    "tools-magnifier"
+  ],
+  "files": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "iswangt<iswangtong1024@163.com>",
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.11"
+  }
+}
